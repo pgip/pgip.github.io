@@ -1,0 +1,66 @@
+* {
+	font-family: Calibri, Arial, sans-serif;
+	margin: 0px;
+}
+
+div {
+	padding: 10px 10px 10px 10px;
+}
+
+h1 {
+	background-color: black;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.stanza1 {
+	background-color: red;
+	height: auto;
+	width: auto;
+}
+
+.stanza2 {
+	background-color: orange;
+	height: auto;
+	width: auto;
+}
+
+.stanza3 {
+	background-color: yellow;
+	height: auto;
+	width: auto;
+}
+
+.stanza4 {
+	background-color: green;
+	height: auto;
+	width: auto;
+}
+
+.stanza5 {
+	background-color: blue;
+	height: auto;
+	width: auto;
+	color: white;
+}
+
+.stanza6 {
+	background-color: indigo;
+	height: auto;
+	width: auto;
+	color: white;
+}
+
+.stanza7 {
+	background-color: violet;
+	height: auto;
+	width: auto;
+}
+
+.stanza8 {
+	background-color: black;
+	color: white;
+	text-align: right;
+	font-size: 20px;
+}

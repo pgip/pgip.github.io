@@ -1,0 +1,50 @@
+* {
+	font-family: Calibri, Arial, sans-serif;
+	background-color: #DA1F3D;
+	font-size: 12px;
+	margin: 0px;
+}
+
+p {
+	background-color: #939393;
+}
+
+h1 {
+	background-color: #939393;
+}
+
+h2 {
+	background-color: #939393;
+}
+
+.handle {
+	width: 140px;
+	height: 600px;
+	background-color: black;
+	border-radius: 70px 70px 0px 0px;
+}
+
+.metal {
+	width: 120px;
+	height: 30px;
+	background-color: gray;
+}
+
+
+.blade-2 {
+	width: 100px;
+	height: 1130px;
+	background-color: #A1A1A1;
+	float: left;
+}
+
+.stanzas {
+	float: left;
+	width: 500px;
+	height: 1120px;
+	background-color: #939393;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+

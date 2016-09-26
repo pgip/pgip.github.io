@@ -1,0 +1,40 @@
+h1 {
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+}
+
+#gutter {
+	width: 10px;
+	height: 10px;
+	border: 10px solid black;
+}
+
+.stanza1 {
+	width: 250px;
+}
+
+.stanza2 {
+	margin-left: 300px;
+	width: 400px;
+}
+
+.stanza3 {
+	margin-left: 700px;
+}
+
+.stanza4 {
+	margin-left: 300px;
+}
+
+.stanza5 {
+	margin-left: 700px;
+}
+
+.stanza6 {
+	margin-left: 300px;
+}
+
+.stanza8 {
+	margin-left: 500px;
+}
