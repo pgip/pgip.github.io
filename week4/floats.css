@@ -1,0 +1,23 @@
+header {
+    height: 100px;
+    background: #414141;
+}
+
+nav {
+    float: left;
+    width: 25%;
+    background: indigo;
+}
+
+section {
+    margin-left: 25%;
+    background: purple;
+}
+
+section img {
+    width: 50%;
+}
+
+footer {
+    background: #A3A3A3;
+}
