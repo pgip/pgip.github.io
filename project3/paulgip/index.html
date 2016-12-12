@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paul Gip</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/lity.css">
+        <link rel="shortcut icon" href="images/favicon.png" type="favicon/ico" />
+
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/logo.png" height="150" width="150"></a>
+        </header>
+
+        <nav>
+            <ul>
+                <li><button class="filter" data-filter="all">Work</div></li>
+                <li><button class="filter" data-filter=".category-1">Illustration</div></li>
+                <li><button class="filter" data-filter=".category-2">Motion</div></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="http://paulgip.bigcartel.com/">Store</a></li>
+            </ul>
+        </nav>
+      
+        <div class="container">
+
+            <ul class="thumbnails">
+
+
+                <div class="mix category-1" data-myorder="1">
+                    <li class="thumb">
+                        <a class="image-popup-vertical-fit" href="images/sunset.jpg" title="Sunset, 2016."><img src="images/sunset.jpg"></a>
+                    </li>
+                </div>
+
+
+                <div class="mix category-1" data-myorder="2">
+                    <li class="thumb">
+                         <a class="image-popup-vertical-fit" href="images/alvvays.jpg" title="Alvvays, 2015."><img src="images/alvvays.jpg"></a>
+                    </li>
+                </div>
+
+                <div class="mix category-1" data-myorder="3">
+                    <li class="thumb">
+                         <a class="image-popup-vertical-fit" href="images/king.jpg" title="Stephen King, 2015."><img src="images/king.jpg"></a>
+                    </li>
+                </div>
+
+                <div class="mix category-1" data-myorder="4">
+                    <li class="thumb">
+                        <div class="popup-gallery">
+                            <a href="images/swimmer_gip_000.jpg" title="The Swimmer"><img src="images/swimmer_gip_000.jpg"></a>
+                            <a href="images/swimmer_gip_001.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_002.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_003.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_004.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_005.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_006.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_007.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_008-009.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_010-011.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_012-013.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_014.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_015.jpg" title="The Swimmer"></a>
+                            <a href="images/swimmer_gip_016-017.jpg" title="The Swimmer"></a>
+                        </div>
+                    </li>
+                </div>
+
+                <div class="mix category-2" data-myorder="2">
+                    <li class="thumb">
+                        <a class="image-popup-vertical-fit" href="images/explosive.gif" title="Explosive, 2016."><img src="images/explosive.gif"></a>
+                    </li>
+                </div>
+
+                <div class="mix category-1" data-myorder="7">
+                    <li class="thumb">
+                        <a class="image-popup-vertical-fit" href="images/speculation1988.jpg" title="Speculation 1988, 2016."><img src="images/speculation1988.jpg"></a>
+                    </li>
+                </div>
+
+                <div class="mix category-1" data-myorder="6">
+                    <li class="thumb">
+                        <a class="image-popup-vertical-fit" href="images/hermit.jpg" title="Hermit, 2016."><img src="images/hermit.jpg"></a>
+                    </li>
+                </div>
+
+                <div class="mix category-2" data-myorder="8">
+                    <li class="thumb">
+                        <a class="image-popup-vertical-fit" href="images/polaroid.gif" title="Polaroid, 2016."><img src="images/polaroid.gif"></a>
+                    </li>
+                </div>
+
+                <div class="mix category-2" data-myorder="9">
+                    <li class="thumb">
+                        <a class="image-popup-vertical-fit" href="images/gameboy.gif" title="Gameboy, 2016."><img src="images/gameboy.gif"></a>
+                    </li>
+                </div>
+
+                <div class="mix category-2" data-myorder="10">
+                    <li class="thumb">
+                        <a href="https://www.vimeo.com/160960744" data-lity><img src="images/lottery.gif"/></a>
+                    </li>
+                </div>
+
+
+                <div class="mix category-2" data-myorder="11">
+                    <li class="thumb">
+                        <a href="https://vimeo.com/160960746" data-lity><img src="images/trump_immigration.gif"></a>
+                    </li>
+                </div>
+            </ul>
+        
+        </div>
+
+        <footer>
+            <h6>Copyright &#169 All rights reserved.</h6>
+        </footer> 
+
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+        <script src="js/mixitup.js"></script>
+
+        <script>
+            jQuery(document).ready(function($) {
+                $('.container').mixItUp();
+            });
+        </script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/jquery.magnific-popup.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.image-link').magnificPopup({type:'image'});
+            });
+        </script>
+
+        <script>
+            $(document).ready(function() {
+
+                $('.image-popup-vertical-fit').magnificPopup({
+                    type: 'image',
+                    closeOnContentClick: true,
+                    mainClass: 'mfp-img-mobile',
+                    image: {
+                        verticalFit: true
+                    }
+                    
+                });
+
+                $('.image-popup-fit-width').magnificPopup({
+                    type: 'image',
+                    closeOnContentClick: true,
+                    image: {
+                        verticalFit: false
+                    }
+                });
+
+                $('.image-popup-no-margins').magnificPopup({
+                    type: 'image',
+                    closeOnContentClick: true,
+                    closeBtnInside: false,
+                    fixedContentPos: true,
+                    mainClass: 'mfp-no-margins mfp-with-zoom', 
+                    image: {
+                        verticalFit: true
+                    },
+                    zoom: {
+                        enabled: true,
+                        duration: 300 
+                    }
+                });
+
+            });
+        </script>
+
+        <script>
+            $(document).ready(function() {
+            $('.popup-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0,1]
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function(item) {
+                        return item.el.attr('title') + '<small>by Paul Gip</small>';
+                    }
+                }
+                });
+            });
+        </script>
+
+        <script src="js/lity.js"></script>
+
+    </body>
+
+</html>

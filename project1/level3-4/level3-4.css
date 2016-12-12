@@ -1,0 +1,18 @@
+h3 {
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+}
+
+div {
+	float: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.stanza5 {
+    border: 20px solid yellow;
+}
+
+.stanza8 {
+      border: 2px dashed black;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paul Gip</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/lity.css">
+        <link rel="shortcut icon" href="images/favicon.png" type="favicon/ico" />
+
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/logo.png" height="150" width="150"></a>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Work</a></li>
+                <li><div class="currentLink">About<div></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="http://paulgip.bigcartel.com/">Store</a></li>
+            </ul>
+        </nav>
+      
+        <div class="container">
+            <div class="content">
+                <h4>About</h4>
+                <p>Paul Gip is an illustrator based in Los Angeles, CA. He will graduate from Otis College of Art and Design in 2017 with a BFA in Illustration.</p>
+            </div>
+        </div>
+
+        <footer>
+            <h6>Copyright &#169 All rights reserved.</h6>
+        </footer> 
+
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+        <script src="js/mixitup.js"></script>
+
+        <script>
+            jQuery(document).ready(function($) {
+                $('.container').mixItUp();
+            });
+        </script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/jquery.magnific-popup.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.image-link').magnificPopup({type:'image'});
+            });
+        </script>
+
+        <script>
+            $(document).ready(function() {
+
+                $('.image-popup-vertical-fit').magnificPopup({
+                    type: 'image',
+                    closeOnContentClick: true,
+                    mainClass: 'mfp-img-mobile',
+                    image: {
+                        verticalFit: true
+                    }
+                    
+                });
+
+                $('.image-popup-fit-width').magnificPopup({
+                    type: 'image',
+                    closeOnContentClick: true,
+                    image: {
+                        verticalFit: false
+                    }
+                });
+
+                $('.image-popup-no-margins').magnificPopup({
+                    type: 'image',
+                    closeOnContentClick: true,
+                    closeBtnInside: false,
+                    fixedContentPos: true,
+                    mainClass: 'mfp-no-margins mfp-with-zoom', 
+                    image: {
+                        verticalFit: true
+                    },
+                    zoom: {
+                        enabled: true,
+                        duration: 300 
+                    }
+                });
+
+            });
+        </script>
+
+        <script>
+            $(document).ready(function() {
+            $('.popup-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0,1]
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: function(item) {
+                        return item.el.attr('title') + '<small>by Paul Gip</small>';
+                    }
+                }
+                });
+            });
+        </script>
+
+        <script src="js/lity.js"></script>
+
+    </body>
+
+</html>
